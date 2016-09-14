@@ -1,0 +1,15 @@
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+
+.content-a {
+	display:table;
+
+	.content-b {
+	display:table-cell;
+    position:relative;
+	vertical-align:middle;
+	}
+}
